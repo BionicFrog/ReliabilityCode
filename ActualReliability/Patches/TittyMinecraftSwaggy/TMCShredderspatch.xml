@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+           
+			<li Class="CombatExtended.PatchOperationFindMod">
+                 <!--must be changed to the mods' name in about.xml-->
+				<modName>[TMC] Shredders Pack</modName>
+			</li>
+             <!--here just change the defname to the gun's defname-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TMC_IAR_Gramps"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                 <!--same here-->
+                <xpath>Defs/ThingDef[defName="TMC_IAR_Gramps"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                <!--here you gotta change the value, max is 10000 which means 100% reliability with full hitpoint and normal quality-->
+                    <Reliability>9500</Reliability>
+                </li>
+                </value>
+            </li>
+
+
+             <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TMC_IAR_Tornado"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="TMC_IAR_Tornado"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>9800</Reliability>
+                </li>
+                </value>
+            </li>
+
+
+
+
+             <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TMC_IAR_Stinger"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="TMC_IAR_Stinger"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>9750</Reliability>
+                </li>
+                </value>
+            </li>
+
+
+
+             <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TMC_IAR_Cleanup"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="TMC_IAR_Cleanup]"/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>9900</Reliability>
+                </li>
+                </value>
+            </li>
+
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TMC_IAR_MacTen"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="TMC_IAR_MacTen"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>9585</Reliability>
+                </li>
+                </value>
+            </li>
+
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TMC_IAR_Dakka"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="TMC_IAR_Dakka"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>9185</Reliability>
+                </li>
+                </value>
+            </li>
+
+        </operations>
+</Operation>
+</Patch>
