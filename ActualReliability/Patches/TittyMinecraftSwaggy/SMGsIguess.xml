@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<li Class="CombatExtended.PatchOperationFindMod">
+				<modName>TMC Armory - SMGs #1</modName>
+			</li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Gun_TMC_ISMG_Muffalo"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Gun_TMC_ISMG_Muffalo"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>9500</Reliability>
+                </li>
+                </value>
+            </li>
+          
+
+
+             <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Gun_TMC_ISMG_Damper"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Gun_TMC_ISMG_Damper"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>9950</Reliability>
+                </li>
+                </value>
+            </li>
+            
+
+
+
+
+             <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Gun_TMC_ISMG_Breaker"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Gun_TMC_ISMG_Breaker"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>9900</Reliability>
+                </li>
+                </value>
+            </li>
+           
+
+
+             <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Gun_TMC_ISMG_BRush"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Gun_TMC_ISMG_BRush"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>9920</Reliability>
+                </li>
+                </value>
+            </li>
+
+             <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Gun_TMC_ISMG_CRSMG"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Gun_TMC_ISMG_CRSMG"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>9998</Reliability>
+                </li>
+                </value>
+            </li>
+
+
+             <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Gun_TMC_ISMG_Danya"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Gun_TMC_ISMG_Danya"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>9720</Reliability>
+                </li>
+                </value>
+            </li>
+
+
+              <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Gun_TMC_ISMG_Kurz"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Gun_TMC_ISMG_Kurz"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>9990</Reliability>
+                </li>
+                </value>
+            </li>
+
+
+
+              <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Gun_TMC_ISMG_Raider"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Gun_TMC_ISMG_Raider"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>9820</Reliability>
+                </li>
+                </value>
+            </li>
+
+
+             <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Gun_TMC_ISMG_RuleEnforcer"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Gun_TMC_ISMG_RuleEnforcer"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>9970</Reliability>
+                </li>
+                </value>
+            </li>
+
+
+             <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="Gun_TMC_ISMG_Spectac"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="Gun_TMC_ISMG_Spectac"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>9990</Reliability>
+                </li>
+                </value>
+            </li>
+
+
+
+
+         
+
+
+            
+             
+
+
+
+            
+            
+        </operations>
+</Operation>
+</Patch>

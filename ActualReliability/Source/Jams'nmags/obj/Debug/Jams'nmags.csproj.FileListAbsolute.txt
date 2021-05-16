@@ -1,0 +1,15 @@
+F:\Steam\steamapps\common\RimWorld\Mods\Jams 'n mags\Assemblies\Jams'nmags.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Jams 'n mags\Assemblies\Jams'nmags.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\Jams 'n mags\Source\Jams'nmags\obj\Debug\Jams'nmags.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Jams 'n mags\Source\Jams'nmags\obj\Debug\Jams'nmags.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\Jams 'n mags\Source\Jams'nmags\obj\Debug\Jams'nmags.csprojAssemblyReference.cache
+F:\Steam\steamapps\common\RimWorld\Mods\Reliability\Assemblies\Jams'nmags.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Reliability\Assemblies\Jams'nmags.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\Reliability\Source\Jams'nmags\obj\Debug\Jams'nmags.csprojAssemblyReference.cache
+F:\Steam\steamapps\common\RimWorld\Mods\Reliability\Source\Jams'nmags\obj\Debug\Jams'nmags.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Reliability\Source\Jams'nmags\obj\Debug\Jams'nmags.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\ActualReliability\Assemblies\Jams'nmags.dll
+F:\Steam\steamapps\common\RimWorld\Mods\ActualReliability\Assemblies\Jams'nmags.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\ActualReliability\Source\Jams'nmags\obj\Debug\Jams'nmags.csprojAssemblyReference.cache
+F:\Steam\steamapps\common\RimWorld\Mods\ActualReliability\Source\Jams'nmags\obj\Debug\Jams'nmags.dll
+F:\Steam\steamapps\common\RimWorld\Mods\ActualReliability\Source\Jams'nmags\obj\Debug\Jams'nmags.pdb

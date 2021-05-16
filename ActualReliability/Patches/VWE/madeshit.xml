@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<li Class="CombatExtended.PatchOperationFindMod">
+				<modName>Vanilla Weapons Expanded - Makeshift</modName>
+			</li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VWE_Gun_MakeshiftPistol"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="VWE_Gun_MakeshiftPistol"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>5999</Reliability>
+                </li>
+                </value>
+            </li>
+
+
+             <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VWE_Gun_MakeshiftSMG"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="VWE_Gun_MakeshiftSMG"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>6150</Reliability>
+                </li>
+                </value>
+            </li>
+
+
+
+
+             <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VWE_Gun_MakeshiftRifle"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="VWE_Gun_MakeshiftRifle"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>6550</Reliability>
+                </li>
+                </value>
+            </li>
+
+
+
+             <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VWE_Gun_MakeshiftShotgun"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="VWE_Gun_MakeshiftShotgun"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>6185</Reliability>
+                </li>
+                </value>
+            </li>
+
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VWE_Gun_MakeshiftLMG"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="VWE_Gun_MakeshiftLMG"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>6185</Reliability>
+                </li>
+                </value>
+            </li>
+
+
+        
+
+
+            
+             
+
+
+
+            
+            
+        </operations>
+</Operation>
+</Patch>

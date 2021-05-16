@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<!-- ==================== CE Steyr ==================== -->
+
+  <ThingDef ParentName="BaseHumanMakeableGun_CE">
+    <defName>Steyrr_ACRx</defName>
+    <label>PM 63 rak</label>
+    <description>Ancient Polish submachingegun made as a personal defense weapon for tankers. Really compact and with mild recoil, but with terrible and moving sights. /n "That's a pretty atrocious gun" - Gun Jesus</description>
+    <graphicData>
+      <texPath>Things/Weapons/Guns/PM63RAK</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <statBases>
+      <WorkToMake>30500</WorkToMake>
+      <SightsEfficiency>0.55</SightsEfficiency>
+      <ShotSpread>0.14</ShotSpread>
+      <SwayFactor>1.05</SwayFactor>
+      <Bulk>2.70</Bulk>
+      <Mass>2.15</Mass>
+      <RangedWeapon_Cooldown>0.30</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>55</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <recoilAmount>1.00</recoilAmount>
+        <verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_44Magnum_FMJ</defaultProjectile>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <warmupTime>0.4</warmupTime>
+        <range>20</range>
+        <soundCast>Shot_Shotgun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>25</magazineSize>
+        <reloadTime>4</reloadTime>
+        <ammoSet>AmmoSet_9x18mmMakarov</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aimedBurstShotCount>4</aimedBurstShotCount>
+      </li>
+      <li Class="Jams_nmags.ReliabilityCompProps">
+            <Reliability>9750</Reliability>
+      </li>
+    </comps>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+    </recipeMaker>
+    <tools>
+      <li Class="CombatExtended.ToolCE">
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2.02</cooldownTime>
+        <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>muzzle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <modExtensions>
+      <li Class="CombatExtended.GunDrawExtension">
+        <DrawSize>1.10,1.15</DrawSize>
+        <DrawOffset>0.0, 0.0</DrawOffset>
+      </li>
+    </modExtensions>
+    
+     <weaponTags>
+      <li>CE_Sidearm</li>
+    </weaponTags>
+  </ThingDef>
+
+
+  	<JobDef>
+		<defName>ClearMalfunction</defName>
+		<driverClass>Jams_nmags.ClearJam</driverClass>
+		<reportString>Clearing malfunction.</reportString>
+		<casualInterruptible>true</casualInterruptible>
+	</JobDef>
+</Defs>

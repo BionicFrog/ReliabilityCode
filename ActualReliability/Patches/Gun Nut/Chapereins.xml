@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<li Class="CombatExtended.PatchOperationFindMod">
+				<modName>Gun Nut - Chapter #1</modName>
+			</li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="GN_AKOneOThree"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="GN_AKOneOThree"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>9999</Reliability>
+                </li>
+                </value>
+            </li>
+
+
+             <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="GN_SAFiftyEight"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="GN_SAFiftyEight"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>9950</Reliability>
+                </li>
+                </value>
+            </li>
+
+
+
+
+           <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="GN_MFourAOne"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="GN_MFourAOne"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>9250</Reliability>
+                </li>
+                </value>
+            </li>
+
+             <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="GN_AKOneOFive"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="GN_AKOneOFive"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>9999</Reliability>
+                </li>
+                </value>
+            </li>
+
+
+
+
+           <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="GN_MPSevenAOne"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="GN_MPSevenAOne"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>9850</Reliability>
+                </li>
+                </value>
+            </li>
+
+            
+             
+
+
+
+            
+            
+        </operations>
+</Operation>
+</Patch>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gun_Revolver"]/verbs/li/verbClass</xpath>
+        <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_Revolver"]/comps</xpath>
+        <value>
+         <li Class="Jams_nmags.ReliabilityCompProps">
+            <Reliability>9999</Reliability>
+         </li>
+        </value>
+    </Operation>
+
+     <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gun_Autopistol"]/verbs/li/verbClass</xpath>
+        <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_Autopistol"]/comps</xpath>
+        <value>
+         <li Class="Jams_nmags.ReliabilityCompProps">
+            <Reliability>9750</Reliability>
+         </li>
+        </value>
+    </Operation>
+
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gun_MachinePistol"]/verbs/li/verbClass</xpath>
+        <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_MachinePistol"]/comps</xpath>
+        <value>
+         <li Class="Jams_nmags.ReliabilityCompProps">
+            <Reliability>9250</Reliability>
+         </li>
+        </value>
+    </Operation>
+
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gun_BoltActionRifle"]/verbs/li/verbClass</xpath>
+        <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_BoltActionRifle"]/comps</xpath>
+        <value>
+         <li Class="Jams_nmags.ReliabilityCompProps">
+            <Reliability>9999</Reliability>
+         </li>
+        </value>
+    </Operation>
+
+
+    
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gun_ChainShotgun"]/verbs/li/verbClass</xpath>
+        <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_ChainShotgun"]/comps</xpath>
+        <value>
+         <li Class="Jams_nmags.ReliabilityCompProps">
+            <Reliability>9000</Reliability>
+         </li>
+        </value>
+    </Operation>
+
+
+
+    
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gun_HeavySMG"]/verbs/li/verbClass</xpath>
+        <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_HeavySMG"]/comps</xpath>
+        <value>
+         <li Class="Jams_nmags.ReliabilityCompProps">
+            <Reliability>9750</Reliability>
+         </li>
+        </value>
+    </Operation>
+
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gun_AssaultRifle"]/verbs/li/verbClass</xpath>
+        <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_AssaultRifle"]/comps</xpath>
+        <value>
+         <li Class="Jams_nmags.ReliabilityCompProps">
+            <Reliability>9550</Reliability>
+         </li>
+        </value>
+    </Operation>
+
+
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gun_LMG"]/verbs/li/verbClass</xpath>
+        <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_LMG"]/comps</xpath>
+        <value>
+         <li Class="Jams_nmags.ReliabilityCompProps">
+            <Reliability>8850</Reliability>
+         </li>
+        </value>
+    </Operation>
+</Patch>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<li Class="CombatExtended.PatchOperationFindMod">
+				<modName>[TMC] British Bullpups</modName>
+			</li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TMC_IAR_LEightyFiveAOne"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="TMC_IAR_LEightyFiveAOne"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>6500</Reliability>
+                </li>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TMC_IAR_LEightyFiveAOne"]/description</xpath>
+                <value>
+                  <description>Imagine unironically using the A1. Like seriously it has complete shit Reliability. It's probably on a raider anyway but still, lmao. </description>
+                </value>
+            </li>
+
+
+             <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TMC_IAR_LEightyFiveATwo"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="TMC_IAR_LEightyFiveATwo"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>9800</Reliability>
+                </li>
+                </value>
+            </li>
+             <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TMC_IAR_LEightyFiveATwo"]/description</xpath>
+                <value>
+                  <description>I guess A2 is fine. Still kinda heavy.</description>
+                </value>
+            </li>
+
+
+
+
+             <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TMC_IAR_EMTwo"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="TMC_IAR_EMTwo"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>9820</Reliability>
+                </li>
+                </value>
+            </li>
+             <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="TMC_IAR_LEightyFiveATwo"]/description</xpath>
+                <value>
+                  British rifle huh. Janson was  a Pole, but I suppose he wasn't the only one working on it. It's still cool, sucks TMC hasn't added .280 with it. The 7.62 isn't super reliable but it's ok.
+                </value>
+            </li>
+
+
+             <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="TMC_IAR_XLSixty"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="TMC_IAR_XLSixty"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>9720</Reliability>
+                </li>
+                </value>
+            </li>
+
+
+
+
+         
+
+
+            
+             
+
+
+
+            
+            
+        </operations>
+</Operation>
+</Patch>

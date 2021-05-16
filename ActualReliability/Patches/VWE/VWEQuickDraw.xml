@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<li Class="CombatExtended.PatchOperationFindMod">
+				<modName>Vanilla Weapons Expanded</modName>
+			</li>
+           
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VWE_Gun_AutomaticPistol"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="VWE_Gun_AutomaticPistol"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>9500</Reliability>
+                </li>
+                </value>
+            </li>
+
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VWE_Gun_BullpupRifle"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="VWE_Gun_BullpupRifle"]/comps</xpath>
+                <value>
+                <!--To code lurkers: there is no code reason for it to be 99, set it to it just cause why not-->
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>9899</Reliability>
+                </li>
+                </value>
+            </li>
+
+
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VWE_Gun_BullpupDMR"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="VWE_Gun_BullpupDMR"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>9785</Reliability>
+                </li>
+                </value>
+            </li>
+
+
+             <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VWE_Gun_PDW"]/verbs/li/verbClass</xpath>
+                <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="VWE_Gun_PDW"]/comps</xpath>
+                <value>
+                <li Class="Jams_nmags.ReliabilityCompProps">
+                    <Reliability>9950</Reliability>
+                </li>
+                </value>
+            </li>
+
+
+
+           
+
+
+
+            
+            
+        </operations>
+</Operation>
+</Patch>
