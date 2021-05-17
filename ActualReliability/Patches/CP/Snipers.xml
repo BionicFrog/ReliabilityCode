@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<li Class="CombatExtended.PatchOperationFindMod">
+				<modName>[CP] Rimmu-Nation - Weapons</modName>
+			</li>
+            <!--AK-s-->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RNGun_Intervention"]/verbs/li/verbClass</xpath>
+                    <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="RNGun_Intervention"]/comps</xpath>
+                    <value>
+                    <li Class="Jams_nmags.ReliabilityCompProps">
+                        <Reliability>9999</Reliability>
+                    </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RNGun_TAC50"]/verbs/li/verbClass</xpath>
+                    <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="RNGun_TAC50"]/comps</xpath>
+                    <value>
+                    <li Class="Jams_nmags.ReliabilityCompProps">
+                        <Reliability>9999</Reliability>
+                    </li>
+                    </value>
+                </li>
+                 <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RNGun_M82A1"]/verbs/li/verbClass</xpath>
+                    <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="RNGun_M82A1"]/comps</xpath>
+                    <value>
+                    <li Class="Jams_nmags.ReliabilityCompProps">
+                        <Reliability>9999</Reliability>
+                    </li>
+                    </value>
+                </li>
+
+                 <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RNGun_SASS"]/verbs/li/verbClass</xpath>
+                    <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="RNGun_SASS"]/comps</xpath>
+                    <value>
+                    <li Class="Jams_nmags.ReliabilityCompProps">
+                        <Reliability>9999</Reliability>
+                    </li>
+                    </value>
+                </li>
+
+                 <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RNGun_L129A1"]/verbs/li/verbClass</xpath>
+                    <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="RNGun_L129A1"]/comps</xpath>
+                    <value>
+                    <li Class="Jams_nmags.ReliabilityCompProps">
+                        <Reliability>9999</Reliability>
+                    </li>
+                    </value>
+                </li>
+
+
+                 <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RNGun_G28"]/verbs/li/verbClass</xpath>
+                    <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="RNGun_G28"]/comps</xpath>
+                    <value>
+                    <li Class="Jams_nmags.ReliabilityCompProps">
+                        <Reliability>9999</Reliability>
+                    </li>
+                    </value>
+                </li>
+
+
+                 <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RNGun_SCAR20"]/verbs/li/verbClass</xpath>
+                    <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="RNGun_SCAR20"]/comps</xpath>
+                    <value>
+                    <li Class="Jams_nmags.ReliabilityCompProps">
+                        <Reliability>9999</Reliability>
+                    </li>
+                    </value>
+                </li>
+
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RNGun_PSG1"]/verbs/li/verbClass</xpath>
+                    <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="RNGun_PSG1"]/comps</xpath>
+                    <value>
+                    <li Class="Jams_nmags.ReliabilityCompProps">
+                        <Reliability>9999</Reliability>
+                    </li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RNGun_WA2000"]/verbs/li/verbClass</xpath>
+                    <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="RNGun_WA2000"]/comps</xpath>
+                    <value>
+                    <li Class="Jams_nmags.ReliabilityCompProps">
+                        <Reliability>9999</Reliability>
+                    </li>
+                    </value>
+                </li>
+
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RNGun_SVD"]/verbs/li/verbClass</xpath>
+                    <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="RNGun_SVD"]/comps</xpath>
+                    <value>
+                    <li Class="Jams_nmags.ReliabilityCompProps">
+                        <Reliability>9999</Reliability>
+                    </li>
+                    </value>
+                </li>
+            
+              <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RNGun_ZastavaM76"]/verbs/li/verbClass</xpath>
+                    <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="RNGun_ZastavaM76"]/comps</xpath>
+                    <value>
+                    <li Class="Jams_nmags.ReliabilityCompProps">
+                        <Reliability>9999</Reliability>
+                    </li>
+                    </value>
+
+                </li>
+ <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RNGun_SVU"]/verbs/li/verbClass</xpath>
+                    <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="RNGun_SVU"]/comps</xpath>
+                    <value>
+                    <li Class="Jams_nmags.ReliabilityCompProps">
+                        <Reliability>9999</Reliability>
+                    </li>
+                    </value>
+                </li>
+
+<li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RNGun_VSS"]/verbs/li/verbClass</xpath>
+                    <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="RNGun_VSS"]/comps</xpath>
+                    <value>
+                    <li Class="Jams_nmags.ReliabilityCompProps">
+                        <Reliability>9999</Reliability>
+                    </li>
+                    </value>
+                </li>
+
+<li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RNGun_M40A4"]/verbs/li/verbClass</xpath>
+                    <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="RNGun_M40A4"]/comps</xpath>
+                    <value>
+                    <li Class="Jams_nmags.ReliabilityCompProps">
+                        <Reliability>9999</Reliability>
+                    </li>
+                    </value>
+                </li>
+
+<li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RNGun_AWP"]/verbs/li/verbClass</xpath>
+                    <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="RNGun_AWP"]/comps</xpath>
+                    <value>
+                    <li Class="Jams_nmags.ReliabilityCompProps">
+                        <Reliability>9999</Reliability>
+                    </li>
+                    </value>
+                </li>
+
+<li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RNGun_SV98"]/verbs/li/verbClass</xpath>
+                    <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="RNGun_SV98"]/comps</xpath>
+                    <value>
+                    <li Class="Jams_nmags.ReliabilityCompProps">
+                        <Reliability>9999</Reliability>
+                    </li>
+                    </value>
+                </li>
+
+<li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RNGun_ZastavaM07"]/verbs/li/verbClass</xpath>
+                    <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="RNGun_ZastavaM07"]/comps</xpath>
+                    <value>
+                    <li Class="Jams_nmags.ReliabilityCompProps">
+                        <Reliability>9999</Reliability>
+                    </li>
+                    </value>
+                </li>
+
+<li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RNGun_SKS"]/verbs/li/verbClass</xpath>
+                    <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="RNGun_SKS"]/comps</xpath>
+                    <value>
+                    <li Class="Jams_nmags.ReliabilityCompProps">
+                        <Reliability>9999</Reliability>
+                    </li>
+                    </value>
+                </li>
+
+<li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RNGun_FNBallista"]/verbs/li/verbClass</xpath>
+                    <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="RNGun_FNBallista"]/comps</xpath>
+                    <value>
+                    <li Class="Jams_nmags.ReliabilityCompProps">
+                        <Reliability>9999</Reliability>
+                    </li>
+                    </value>
+                </li>
+
+<li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RNGun_Mosin"]/verbs/li/verbClass</xpath>
+                    <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="RNGun_Mosin"]/comps</xpath>
+                    <value>
+                    <li Class="Jams_nmags.ReliabilityCompProps">
+                        <Reliability>9999</Reliability>
+                    </li>
+                    </value>
+                </li>
+
+<li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RNGun_SKS"]/verbs/li/verbClass</xpath>
+                    <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="RNGun_SKS"]/comps</xpath>
+                    <value>
+                    <li Class="Jams_nmags.ReliabilityCompProps">
+                        <Reliability>9999</Reliability>
+                    </li>
+                    </value>
+                </li>
+
+<li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RNGun_Garrand"]/verbs/li/verbClass</xpath>
+                    <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="RNGun_Garrand"]/comps</xpath>
+                    <value>
+                    <li Class="Jams_nmags.ReliabilityCompProps">
+                        <Reliability>9999</Reliability>
+                    </li>
+                    </value>
+                </li>
+
+<li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RNGun_EBR"]/verbs/li/verbClass</xpath>
+                    <value><verbClass>Jams_nmags.Verb_ShootWithReliability</verbClass></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="RNGun_EBR"]/comps</xpath>
+                    <value>
+                    <li Class="Jams_nmags.ReliabilityCompProps">
+                        <Reliability>9999</Reliability>
+                    </li>
+                    </value>
+                </li>
+
+
+
+
+
+
+
+
+
+        </operations>
+</Operation>
+</Patch>
