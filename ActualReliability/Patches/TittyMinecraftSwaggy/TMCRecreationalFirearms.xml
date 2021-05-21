@@ -64,7 +64,7 @@
                 <xpath>Defs/ThingDef[defName="TMC_IAR_SKSTapco]"/comps</xpath>
                 <value>
                 <li Class="Jams_nmags.ReliabilityCompProps">
-                    <Reliability>9900</Reliability>
+                    <Reliability>9500</Reliability>
                 </li>
                 </value>
             </li>

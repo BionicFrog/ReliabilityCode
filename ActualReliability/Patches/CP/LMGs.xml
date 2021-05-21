@@ -16,7 +16,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_DP28"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9999</Reliability>
+                        <Reliability>9940</Reliability>
                     </li>
                     </value>
                 </li>
@@ -28,7 +28,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_M60"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9999</Reliability>
+                        <Reliability>9925</Reliability>
                     </li>
                     </value>
                 </li>
@@ -40,7 +40,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_RPD"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9999</Reliability>
+                        <Reliability>9850</Reliability>
                     </li>
                     </value>
                 </li>
@@ -53,7 +53,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_RPK"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9999</Reliability>
+                        <Reliability>9950</Reliability>
                     </li>
                     </value>
                 </li>
@@ -66,7 +66,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_FNMAG"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9999</Reliability>
+                        <Reliability>9940</Reliability>
                     </li>
                     </value>
                 </li>
@@ -80,7 +80,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_ZastavaM84"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9999</Reliability>
+                        <Reliability>9900</Reliability>
                     </li>
                     </value>
                 </li>
@@ -94,7 +94,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_PKM"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9999</Reliability>
+                        <Reliability>9865</Reliability>
                     </li>
                     </value>
                 </li>
@@ -108,7 +108,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_M249"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9999</Reliability>
+                        <Reliability>9700</Reliability>
                     </li>
                     </value>
                 </li>
@@ -121,7 +121,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_M240B"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9999</Reliability>
+                        <Reliability>9800</Reliability>
                     </li>
                     </value>
                 </li>
@@ -134,7 +134,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_FNMinimi"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9999</Reliability>
+                        <Reliability>9900</Reliability>
                     </li>
                     </value>
                 </li>
@@ -148,7 +148,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_Minigun"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9999</Reliability>
+                        <Reliability>9850</Reliability>
                     </li>
                     </value>
                 </li>

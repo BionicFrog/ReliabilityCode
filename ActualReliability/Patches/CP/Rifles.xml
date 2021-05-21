@@ -16,7 +16,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_ACR"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9999</Reliability>
+                        <Reliability>9985</Reliability>
                     </li>
                     </value>
                 </li>
@@ -28,7 +28,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_AUG"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9999</Reliability>
+                        <Reliability>9775</Reliability>
                     </li>
                     </value>
                 </li>
@@ -40,7 +40,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_C7"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9999</Reliability>
+                        <Reliability>9865</Reliability>
                     </li>
                     </value>
                 </li>
@@ -53,7 +53,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_C8"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9999</Reliability>
+                        <Reliability>9945</Reliability>
                     </li>
                     </value>
                 </li>
@@ -66,7 +66,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_G3"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9999</Reliability>
+                        <Reliability>9930</Reliability>
                     </li>
                     </value>
                 </li>
@@ -80,7 +80,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_G36C"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9999</Reliability>
+                        <Reliability>9885</Reliability>
                     </li>
                     </value>
                 </li>
@@ -94,7 +94,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_Stoner63"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9999</Reliability>
+                        <Reliability>9780</Reliability>
                     </li>
                     </value>
                 </li>
@@ -108,7 +108,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_HK416"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9999</Reliability>
+                        <Reliability>9820</Reliability>
                     </li>
                     </value>
                 </li>
@@ -121,7 +121,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_HK416SD"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9999</Reliability>
+                        <Reliability>9950</Reliability>
                     </li>
                     </value>
                 </li>
@@ -135,7 +135,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_M4A1"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9999</Reliability>
+                        <Reliability>9955</Reliability>
                     </li>
                     </value>
                 </li>
@@ -149,7 +149,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_M4A1SD"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9999</Reliability>
+                        <Reliability>9785</Reliability>
                     </li>
                     </value>
                 </li>
@@ -163,7 +163,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_M27"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9999</Reliability>
+                        <Reliability>9935</Reliability>
                     </li>
                     </value>
                 </li>
@@ -177,7 +177,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_M4A4"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9999</Reliability>
+                        <Reliability>9920</Reliability>
                     </li>
                     </value>
                 </li>
@@ -190,7 +190,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_M4A4SD"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9980</Reliability>
+                        <Reliability>9880</Reliability>
                     </li>
                     </value>
                 </li>
@@ -204,7 +204,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_M16A4SD"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9509</Reliability>
+                        <Reliability>9750</Reliability>
                     </li>
                     </value>
                 </li>
@@ -217,7 +217,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_FAMAS"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9509</Reliability>
+                        <Reliability>9995</Reliability>
                     </li>
                     </value>
                 </li>
@@ -230,7 +230,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_L85A2"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9509</Reliability>
+                        <Reliability>9850</Reliability>
                     </li>
                     </value>
                 </li>
@@ -244,7 +244,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_XM8"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9509</Reliability>
+                        <Reliability>9800</Reliability>
                     </li>
                     </value>
                 </li>
@@ -257,7 +257,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_SCARH"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9509</Reliability>
+                        <Reliability>9650</Reliability>
                     </li>
                     </value>
                 </li>
@@ -270,7 +270,7 @@
                     <xpath>Defs/ThingDef[defName="RNGun_RN_GALIL"]/comps</xpath>
                     <value>
                     <li Class="Jams_nmags.ReliabilityCompProps">
-                        <Reliability>9509</Reliability>
+                        <Reliability>9995</Reliability>
                     </li>
                     </value>
                 </li>
